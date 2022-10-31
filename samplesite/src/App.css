@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(63, 62, 62);
+  color: beige;
+}
+.App {
+  text-align: center;
+}
+
+a {
+  color: magenta;
+}
+
+a :visited {
+  color: yellow;
+}
