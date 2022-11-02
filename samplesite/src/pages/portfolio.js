@@ -1,7 +1,7 @@
-function Contact() {
+function Portfolio() {
   return (
     <div className="page">
-      <h2 className="page_title">Connect With Me</h2>
+      <h2 className="page_title">Portfolio</h2>
       <div className="page_content">
         <h3 className="page_subtitle">Welcome</h3>
         <p className="page_content_text">
@@ -18,4 +18,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Portfolio

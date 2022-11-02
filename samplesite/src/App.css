@@ -1,15 +1,95 @@
-body {
-  background-color: rgb(63, 62, 62);
-  color: beige;
+* {
+  margin: 0 auto;
 }
+
 .App {
   text-align: center;
+  background-color: #f1e9db;
 }
 
 a {
-  color: magenta;
+  text-decoration: none;
 }
 
-a :visited {
-  color: yellow;
+.header {
+  border-bottom: 2px solid #AA4465;
+}
+
+.site_title {
+  font-family: 'Elsie', cursive;
+  font-size: 36px;
+  color: #462255;
+  padding-bottom: 5px;
+}
+
+.site_subtitle {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  color: #AA4465;
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+.headshot {
+  width: 50%;
+  border-radius: 100%;
+  border-bottom: 2px solid #AA4465 ;
+  border-left: 1px solid #AA4465 ;
+  background-color: #f1e9db;
+  margin: 10px 0px 10px 0px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  background-color: #AA4465;
+}
+
+.nav a {
+  color: #f1e9db;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_title {
+  font-family: 'Elsie', cursive;
+  font-size: 28px;
+  color: #462255;
+  margin: 15px;
+  padding-top: 25px;
+}
+
+.page_content {
+  background-color: #edeae4;
+  width: 75%;
+  border: 2px solid #462255;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.page_subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  color: #AA4465;
+  margin: 5px;
+}
+
+.page_content p {
+text-align: left;
+}
+
+.page_content_text {
+  margin: 5px;
 }
