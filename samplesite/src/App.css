@@ -4,7 +4,7 @@
 
 .App {
   text-align: center;
-  background-color: #f1e9db;
+  background-color:#EDE5D4;
 }
 
 a {
@@ -12,6 +12,7 @@ a {
 }
 
 .header {
+  background-color: #F3EEE2;
   border-bottom: 1px solid #462255;
   box-shadow: -2px 6px 37px -5px rgba(92,78,78,0.25);
   -webkit-box-shadow: -2px 6px 37px -5px rgba(92,78,78,0.25);
@@ -39,7 +40,7 @@ a {
   border-radius: 100%;
   border-bottom: 2px solid #AA4465 ;
   border-left: 1px solid #AA4465 ;
-  background-color: #f1e9db;
+  background-color:#EDE5D4;
   margin: 10px 0px 10px 0px;
   box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.26);
   -webkit-box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.26);
@@ -61,7 +62,7 @@ a {
 }
 
 .page_content {
-  background-color: #edeae4;
+  background-color: #F3EEE2;
   width: 75%;
   border: 2px solid #462255;
   border-radius: 12px;
@@ -73,7 +74,7 @@ a {
 }
 
 .welcome_content {
-  background-color: #edeae4;
+  background-color: #F3EEE2;
   width: 75%;
   border: 2px solid #462255;
   border-radius: 12px;
@@ -134,7 +135,7 @@ text-align: left;
   display: flex;
   flex-direction: column;
   align-content: center;
-  background-color: #edeae4;
+  background-color: #F3EEE2;
   width: 85%;
   border: 1px solid #462255;
   border-radius: 12px;
@@ -166,6 +167,21 @@ text-align: left;
   border-radius: 12px;
 }
 
+.project_content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #F3EEE2;
+  width: 85%;
+  border: 1px solid #462255;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10px auto;
+  box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.26);
+  -webkit-box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.26);
+  -moz-box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.26);
+}
+
 #main-menu {
 display: block;
 height: 100px;
@@ -193,7 +209,7 @@ font-size: 2rem;
 }
 
 #main-menu a {
-color: #edeae4;
+color: #F3EEE2;
 font-size: 1.5rem;
 text-decoration: none;
 }
@@ -236,7 +252,7 @@ display: none;
 }
 
 #hamburger-menu h3 {
-color: #edeae4;
+color: #F3EEE2;
 font-size: 2.2rem;
 padding-bottom: 15px;
 }
@@ -251,7 +267,7 @@ line-height: 3rem;
 }
 
 #hamburger-menu a {
-color: #edeae4;
+color: #F3EEE2;
 font-size: 1.3rem;
 text-decoration: none;
 }
