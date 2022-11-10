@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import bp3 from './project_images/blueprint3.png'
 
 function Project3() {
@@ -17,9 +17,9 @@ function Project3() {
           Faucibus in ornare quam viverra.
         </p>
       </div>
-      <Link className="back" to="/portfolio">
+      <HashLink className="back" to="/portfolio#3">
         Back
-      </Link>
+      </HashLink>
     </div>
   )
 }
